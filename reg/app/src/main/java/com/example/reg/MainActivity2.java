@@ -30,7 +30,6 @@ public class MainActivity2 extends AppCompatActivity {
 
         show = (TextView)findViewById(R.id.show);
 
-
         SharedPreferences share = getSharedPreferences("Registration", MODE_PRIVATE);
         String firstname = share.getString("firstname", "");
         String lastname = share.getString("lastname", "");
@@ -43,4 +42,5 @@ public class MainActivity2 extends AppCompatActivity {
         show.setText(content);
     }
 }
+
 
